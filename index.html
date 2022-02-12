@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>calculator</title>
+</head>
+<body>
+
+    <main>
+        <div class="calc-parent">
+            <h3 class="heading">normal calculator</h3>
+            <div class="calc-head">
+                <input type="text" class="output" name="" placeholder="0" id="result" disabled>
+            </div>
+            <div class="calc-body">
+                <button class="btn clm2" type="button" onclick="clrAll()" >C</button>
+                <button class="btn" type="button" onclick="del('')" >DEL</button>
+                <button class="btn" type="button" onclick="numShow('/')" >/</button>
+                <button class="btn" type="button" onclick="numShow('7')" >7</button>
+                <button class="btn" type="button" onclick="numShow('8')" >8</button>
+                <button class="btn" type="button" onclick="numShow('9')" >9</button>
+                <button class="btn" type="button" onclick="numShow('*')" >*</button>
+                <button class="btn" type="button" onclick="numShow('4')" >4</button>
+                <button class="btn" type="button" onclick="numShow('5')" >5</button>
+                <button class="btn" type="button" onclick="numShow('6')" >6</button>
+                <button class="btn" type="button" onclick="numShow('-')" >-</button>
+                <button class="btn" type="button" onclick="numShow('1')" >1</button>
+                <button class="btn" type="button" onclick="numShow('2')" >2</button>
+                <button class="btn" type="button" onclick="numShow('3')" >3</button>
+                <button class="btn row2"  type="button" onclick="numShow('+')" >+</button>
+                <button class="btn" type="button" onclick="numShow('0')" >0</button>
+                <button class="btn" type="button" onclick="numShow('.')" >.</button>
+                <button class="btn" type="button" onclick="calculate()" >=</button>
+            </div>
+            
+
+            </div>
+        </div>
+    </main>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
